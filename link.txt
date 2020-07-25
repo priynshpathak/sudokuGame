@@ -1,0 +1,2 @@
+gitRepository -- https://github.com/priynshpathak/sudokuGame.git
+netlify link  -- https://ecstatic-wiles-51e5bf.netlify.app/

@@ -1,0 +1,46 @@
+#number-container{
+    justify-content: left;
+}
+
+
+#number-container > p{
+    justify-content: left;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: center;  
+    border-radius: 20%;
+    width : 300px;
+    height: 40px;
+    font-size: 20pt;
+    margin-top: 8px;  
+}
+
+#Game{
+    padding-top: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    width: 600px;
+    height:600px;
+}
+
+.numbers{
+    border: 1px solid black;
+    width:60px;
+    height:60px;
+    text-align: center;
+    margin:0px;
+    vertical-align: middle;
+    font-size:40pt;
+}
+
+
+
+
+
+
+
+
