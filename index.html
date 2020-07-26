@@ -2,33 +2,61 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Sudoku Game</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <script src="common.js"></script>
+  <style>
+    body {
+      background-image: url(images.jpg);
+      background-color: cyan;
+      /* background-blend-mode: luminosity; */
+      /* background-repeat: no-repeat; */
+
+      /* background-color: rgb(73, 55, 55); */
+    }
+
+    .input-container {
+     /* display: -ms-flexbox; */
+     /* display: flex; */
+     /* width: 40%; */
+     margin-bottom: 30px;
+     justify-content: center;
+     
+    }
+  </style>
 </head>
 
 <body>
-    <div>
-        <h2>Welcome to sudoku game</h2><br>
-        <h2>Allowed time limit is 4 mins</h2>
-        <label>Time Left : <p id="cur-time"></p></label>
+  <form style="
+        margin-top: 77px;
+        max-width: 500px;
+        margin: auto;
+        background: #0658b6dc;
+        border: indigo ;
+        border-radius: 30px;
+      ">
+    <div class="input-container">
+      <h2 style="text-align: center;">Welcome to Sudoku</h2>
     </div>
-    <div id="Main">
-        <div id="Game"></div>
-        <div id="number-container">
-            <p id="one">1</p>
-            <p id="two">2</p>
-            <p id="three">3</p>
-            <p id="four">4</p>
-            <p id="five">5</p>
-            <p id="six">6</p>
-            <p id="seven">7</p>
-            <p id="eight">8</p>
-            <p id="nine">9</p>
-        </div>
-        <button id="start-button" onclick="startGame()">Start the game</button>
+    <div class="input-container">
+      <img src="Sudoku.jpg" alt="Sudoku" width="200px" height="200" style="margin-left: 150px;"/>
     </div>
+
+    <div class="input-container">
+      <h2 style="text-align: center;">Game rules</h2>
+      <ol style="margin-left: 25px; font-weight: bold;">
+        <li>Max time to complete the game is 4 mins.</li>
+        <li>Once game is started select the tile and enter number 1-9.</li>
+        <li>To clear any box value simply select the tile and press 0 over it.</li>
+      </ol>
+    </div>
+
+    <div class="input-container">
+      <a target="_self" href="indexOne.html" style="margin-left: 170px; font-weight: 700; color: black;">Click to start the game</a>
+    </div>
+    <p style="text-align: center;">-----------------------</p>
+  </form>
 </body>
+
 </html>

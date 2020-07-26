@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Sudoku Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="common.js"></script>
+    <script src="script.js"></script>
+    
+</head>
+
+<body onkeydown="handlekeydown(event)">
+    <h1>Sudoku Mania</h1>
+    <button id="start-button">Start the game</button>
+    <button id="reset-button" onclick="clearBoard()" class="hidden">Reset Board</button>
+    <button id="submit-button" onclick="submitGame()" class="hidden">Submit Game</button>
+    <div id="Game-setup">
+        <p id="result">Timer and Result</p>
+    </div>
+    <div id="Main">
+        <div id="Game"></div>
+        <div id="number-container" class="hidden">
+            <p id="one">1</p>
+            <p id="two">2</p>
+            <p id="three">3</p>
+            <p id="four">4</p>
+            <p id="five">5</p>
+            <p id="six">6</p>
+            <p id="seven">7</p>
+            <p id="eight">8</p>
+            <p id="nine">9</p>
+        </div>
+    </div>
+    
+</body>
+</html>
